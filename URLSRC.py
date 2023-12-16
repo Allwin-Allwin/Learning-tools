@@ -61,6 +61,7 @@ def writeInFile(src_code):
 
 
 def main():
+	global url 
 	if len(sys.argv) == 1:
 		url = getURL()
 
