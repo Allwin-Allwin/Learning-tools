@@ -39,24 +39,14 @@ def getSRC(url):
 	writeInFile(src_code)
 
 def writeInFile(src_code):
-	global url
-	fname = "URLSRC"    # Folder for Stroing result
-	path = os.getcwd().replace("\\", "/")  +'/' + fname
-	if  os.path.exists(path) :
-		pass
-	else :
-		os.mkdir(fname)
+	path = os.getcwd() + "/URLSRC"
 	os.chdir(path)
-	filename = url[8:] + '.txt'
+	filename = input("Enter File Name:")
 	file = open(filename,'w')
-	file.write(src_code)
+	file.write(str(src_code))
 	file.close()
-
-	file = open(filename,'r')
-	print(file.read())
-	file.close()
-
-	print("Result is stored at \n",path,'/',filename)
+	print(src_code)
+	print(f"Copy is Stored at {path} with name {filename}")
 	Terminate()
 
 

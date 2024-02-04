@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Studio |YouTube Channel</title>
+    <link rel="stylesheet" href="ajstudio/CSS/index.css">
+    <link rel="icon" href="ajstudio/Images/new_logo.jpg">
+    <link rel="stylesheet" href="ajstudio/CSS/main.css">
+    <meta name="author"  content="Allwin" />
+    <meta name="description" content="Blender project files Free Download " />
+    <meta  name="description" content="Photoshop project files Free Download " />
+    <meta name="description" content="Free editing projects like photoshop, blender etc." />
+
+
+
+    <style>
+          .mail{
+            border-radius: 10px; 
+            width: 100px;
+            height: 20px;
+            position: absolute ;
+            right: 10px;
+            top: 30px;
+            color: white;
+            background-color: red;
+        } 
+        .mail:hover{
+            background-color: silver;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="toplogo">
+        <table>
+            <tr>
+                <td>
+                    <a href='/'><img class="circle-image" src="ajstudio/Images/new_logo.jpg" alt="AJ Studio" width="80" height="80" title="AJ Studio"> </a>
+                </td>
+                <td>
+                    <span title="AJ Studio">AJ Studio</span>
+                </td>
+                
+            </tr>
+        </table>
+        <a href="mailto:Anclinejanofer28@gmail.com" class="nav mail"><span >Email Now</span></a>
+
+        <nav>
+            <a class='nav' href='/' title='Home'>Home</a>
+            <a class='nav' href='/ajstudio/html/about' title='About'>About</a>
+            <a class='nav' href='/ajstudio/html/contact' title='Contact'>Contact</a>
+            <a class='nav' href='/ajstudio/html/project-files' title='Project files'>Project files</a>
+        </nav>
+    </div>
+    <div class="main">
+        <div id="showcase">
+            <h1>AJ Studio </h1>
+            <p>
+                <b>My Work Showcase</b><br>
+                since begining my journey in this field,my dedication to the work and motivation to grow have led me to exceptional projects and <br>
+                experiences.I'm grateful for a profession I'm passionate about, and am proud to share examples of my greatest work.
+            </p>
+            <br><br>
+            <a href="https://www.youtube.com/@kuttyentertainment9428" id="learnmore" target="_blank">Learn More</a>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
